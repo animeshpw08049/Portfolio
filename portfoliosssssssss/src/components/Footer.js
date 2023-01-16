@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -14,26 +13,27 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Sukhchain Kaur</h3>
+          <h3>Designed and Developed by Animesh Kumar</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SK</h3>
+          <h3>Copyright © {year} AK</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+          
             <li className="social-icons">
-              {/* <a
-                href="https://github.com/sukhchain77"
+            <a
+                href="https://github.com/animeshpw08049"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
-              </a> */}
+              </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/kaursukhchain77"
+                href="https://twitter.com/@Animeshkashyap2"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -43,22 +43,12 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/sukhchain-kaur-6b9b7a192/"
+                href="https://www.linkedin.com/in/animesh-kashyap-614ba4136/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/k_sukhchain/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
               </a>
             </li>
           </ul>
