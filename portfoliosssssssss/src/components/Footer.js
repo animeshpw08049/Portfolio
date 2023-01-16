@@ -22,14 +22,14 @@ function Footer() {
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
-              <a
+              {/* <a
                 href="https://github.com/sukhchain77"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
-              </a>
+              </a> */}
             </li>
             <li className="social-icons">
               <a
