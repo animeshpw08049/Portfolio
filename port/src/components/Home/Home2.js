@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
+  
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,18 +19,41 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-             I am Full Stack Web Developer and i have knowledge in HTML, CSS,
-             JS, REACT and i make user-friendly website.
+              I fell in love with programming and I have at least learnt
+              something, I think… 🤷‍♂️
               <br />
-              <br /> I built 2 major projects. Learned a great deal about teamwork, leadership, and communication.
-               After months of rigorous training, here I am looking for an opportunity as a full Stack web
-                Developer.
+              <br />I am fluent in classics like
+              <i>
+                <b className="purple"> C++, JAVA, HTML, CSS, Javascript. </b>
+              </i>
               <br />
-              </p>
+              <br />
+              My field of Interest's are building new &nbsp;
+              <i>
+                <b className="purple">Web Technologies and Products </b>
+              </i>
+              <br />
+              <br />
+              Whenever possible, I also apply my passion for developing products
+              with <b className="purple">Node.js</b> and
+              <i>
+                <b className="purple">
+                  {" "}
+                  Modern Javascript Library
+                </b>
+              </i>
+              &nbsp; like
+              <i>
+                <b className="purple"> React.js</b>
+              </i>
+            </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+               <img src={myImg}  alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
             </Tilt>
           </Col>
         </Row>
@@ -43,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/sukhchain77"
+                  href="https://github.com/animeshpw08049"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -53,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/kaursukhchain77"
+                  href="https://twitter.com/@Animeshkashyap2"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -63,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/sukhchain-kaur-6b9b7a192/"
+                  href="https://www.linkedin.com/in/animesh-kashyap-614ba4136/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -71,16 +94,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/k_sukhchain/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              
             </ul>
           </Col>
         </Row>

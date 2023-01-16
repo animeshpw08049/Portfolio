@@ -2,12 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/bluemercury.png";
-// import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/firstcry.png";
+import editor from "../../Assets/Projects/codeEditor.png";
+import chatify from "../../Assets/Projects/chatify.png";
 
 function Projects() {
   return (
@@ -25,26 +21,23 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Bluemercury"
-              description=" Bluemercury.com is a leading luxury beauty retailer offering the best cosmetics,
-               skin care, makeup, perfume, hair, and bath and body. All products located on New Page. "
-              ghLink="https://github.com/shantanubose01/BluemercuryClone"
-              demoLink="https://polite-froyo-1fca91.netlify.app//"
+              title=" Bluemercury"
+              description="Bluemercury.com is a leading luxury beauty retailer offering the best cosmetics, skin care, makeup, perfume, hair, and  as well as in-store facials and spa treatments. In addition to selling products from other brands, the company developed its own M-61 skincare line in 2012 and Lune+Aster make-up line in 2015.."
+              ghLink="https://github.com/animeshpw08049/bluemercury"
+              demoLink="https://astonishing-parfait-8c3d13.netlify.app"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={editor}
               isBlog={false}
-              title="FirstCry"
-              description="FirstCry.com - Asia's Largest Online Baby and Kids Store, is India's largest online shop for
-               new mom and baby products, offering top of the line discounts."
-              ghLink="adityarajbenn/firstCry"
-              demoLink="https://firstcry-clone.netlify.app/"
+              title="Nykaa"
+              description="Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai. It sells beauty, wellness and fashion products across websites, mobile apps and 100+ offline stores. In 2020, it became the first Indian unicorn startup headed by a woman."
+              ghLink="https://github.com/almightycoder4/nykaa-clone"
+              demoLink="https://nyka.netlify.app/"              
             />
           </Col>
-  
         </Row>
       </Container>
     </Container>
