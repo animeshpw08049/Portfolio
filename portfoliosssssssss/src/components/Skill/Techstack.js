@@ -1,25 +1,19 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-// import { CgCPlusPlus } from "react-icons/cg";
+import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
-  // DiPython,
-  DiGit,
+  DiJava,
+ 
 } from "react-icons/di";
-import {
-  // SiPytorch,
-  // SiFirebase,
-  // SiNextdotjs,
-} from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        {/* <CgCPlusPlus /> */}
         <img src="https://mohitkss.github.io/static/media/html5.4e6edfe05f07c383e94f.png" style={{width:"55px" , height:"50px"}}/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -35,16 +29,20 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+      <img src="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png" style={{width:"55px" , height:"50px"}}/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
       <DiNodejs />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+      <img src="https://mohitkss.github.io/static/media/git.b1472a80b81e487179cf.png" style={{width:"55px" , height:"50px"}}/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <img src="https://mohitkss.github.io/static/media/redux.7fec6369cecd1cbd44d6.png" style={{width:"55px" , height:"50px"}}/> 
+      <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <img src="https://mohitkss.github.io/static/media/mern.b58d81727b47466a7cda.png" style={{width:"55px" , height:"50px"}}/> 
+      <CgCPlusPlus />
       </Col>
       
     </Row>
