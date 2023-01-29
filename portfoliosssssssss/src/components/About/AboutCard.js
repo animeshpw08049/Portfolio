@@ -10,12 +10,12 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Animesh Kumar </span>
             from <span className="purple"> Bihar, India.</span>
-            <br />I completed BSc in Computer Application from IGNOU. Passionate Full Stack Web Developer with skills in the MERN stack,
-             I have learned Full Stack Web Development in Masai school.
+            <br />I completed BSc in Computer Application from IGNOU. and I completed Diploma in GNIIT (Software Engineer) from NIIT. Passionate Full Stack Web Developer with skills in the MERN stack,
+             I am learning Full Stack Web Development in Masai school.
              <br/>
              <br/>
             Skilled in problem- solving and execution of software tasks
-             from start to finish.I look forward to joining a company where
+             from start to finish. I look forward to joining a company where
               I can contribute to individual and company growth..
             <br />
             <br />

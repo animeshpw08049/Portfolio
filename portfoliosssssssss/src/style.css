@@ -657,6 +657,8 @@ button:focus {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  display: flexbox;
+ 
 }
 
 .resume .resume-item ul {

@@ -15,6 +15,9 @@ function Github() {
         color="#c084f5"
         fontSize={16}
       />  
+      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+        MY <strong className="purple">STATISTICS</strong>
+      </h1>
       <div style={{marginTop:"1%"}}>
         <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=animeshpw08049&theme=github-dark&border_radius=20"/>
 

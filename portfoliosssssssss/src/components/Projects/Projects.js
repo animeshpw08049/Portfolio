@@ -74,7 +74,7 @@ function Projects() {
              My task was to make Login or Signup Page with fully Funcationally.
              React, Node JS, Java Script, Redux, CSS"
               ghLink="https://github.com/RichieRich2020/practo.com_clone"
-              demoLink="https://nyka.netlify.app/"   
+              demoLink="https://practo-clones.netlify.app/"   
             />
           </Col>
         </Row>

@@ -10,11 +10,12 @@ function Contact() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
+      <Container  style={{boxShadow:" 0 0 5px #87209e",textShadow:" 0 0 2px #87209e", width:"50%", marginTop:"8%", paddingTop:"1%", borderRadius:"10px"}}>
         <blockquote className="blockquote mb-0">
 
         <div style={{marginTop:"7%",textAlign:"center"}}>
 
-          <h1 style={{fontSize:"50px", fontWeight:"bold"}}>Contact Info</h1>
+          <h1 style={{fontSize:"50px", fontWeight:"bold", letterSpacing:"1px"}}>Contact Info</h1>
 
            <div style={{ flex:"1 1 48rem",padding:"2rem 1rem",paddingLeft: "6rem",textAlign:"center"}}>
                <h3 style={{fontSize: "2rem",color:"var(--yellow)",padding:"1rem 0",fontWeight: "normal"}}>
@@ -22,18 +23,21 @@ function Contact() {
                 </h3>
 
                <h3 style={{fontSize: "2rem",color:"var(--yellow)",padding:"1rem 0",fontWeight: "normal"}}>
-               <CgPhone style={{ marginBottom: "2px", marginLeft:"-17%",  marginRight:"1%"}} /> +91 9650731805 
+               <CgPhone style={{ marginBottom: "2px", marginLeft:"-38%",  marginRight:"1%"}} /> +91 9650731805 
                 </h3>
                <h3 style={{fontSize: "2rem",color:"var(--yellow)",padding:"1rem 0",fontWeight: "normal"}}> 
-               <CgPhone style={{ marginBottom: "2px", marginLeft:"-17%",  marginRight:"1%"}} /> +91 7667694853 
+               <CgPhone style={{ marginBottom: "2px", marginLeft:"-38%",  marginRight:"1%"}} /> +91 7667694853 
                 </h3>
                <h3 style={{fontSize: "2rem",color:"var(--yellow)",padding:"1rem 0",fontWeight: "normal"}}> 
-                 <AiOutlineHome style={{ marginBottom: "2px", marginLeft:"-9.5%",  marginRight:"1%"}} /> Munger, Bihar - 811211. 
+                 <AiOutlineHome style={{ marginBottom: "2px", marginLeft:"-22%",  marginRight:"1%"}} /> Munger, Bihar - 811211. 
                 </h3>
            </div>
        </div>
         </blockquote>
+        </Container>
       </Card.Body>
+
+      <Container  style={{boxShadow:" 0 0 5px #87209e",textShadow:" 0 0 2px #87209e", width:"50%", marginTop:"2%", marginBottom:"5%", paddingTop:"1%", borderRadius:"10px"}}>
       <Container fluid className="home-about-section" id="about">
       <Container>
        
@@ -79,6 +83,7 @@ function Contact() {
           </Col>
         </Row>
       </Container>
+    </Container>
     </Container>
     </Card>  
   );
