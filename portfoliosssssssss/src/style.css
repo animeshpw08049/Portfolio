@@ -375,6 +375,8 @@ button:focus {
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
+  
+  
 }
 
 .home-social-icons:hover::before {
@@ -593,6 +595,8 @@ button:focus {
   padding-left: 1px !important;
 }
 
+
+
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
@@ -743,3 +747,133 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+div .contact-container{
+  box-shadow: 0 0 5px #87209e;
+  text-shadow: 0 0 2px #87209e; 
+  width: 50%; 
+  margin: auto;
+  margin-top:8%;
+  padding-top:1%; 
+  border-radius:10px;
+}
+
+div .email-div{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem 2rem 6rem;
+    text-align: center;
+}
+
+div .mail-icon{
+  margin-bottom: 2px; 
+  margin-right:1%;
+}
+
+div .contact-h1{
+  font-size: 2rem;
+  color: var(--yellow);
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+div .contact-h2{
+  font-size: 2rem;
+  color: var(--yellow);
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+div .contact-h3{
+  font-size: 2rem;
+  color: var(--yellow);
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+ div .icon-container{
+  box-shadow: 0 0 5px #87209e; 
+  text-shadow: 0 0 2px #87209e; 
+  width: 50%; 
+  margin-top: 2%; 
+  margin-bottom: 5%; 
+  padding-top: 1%; 
+  border-radius: 10px;
+}
+
+div .finds{
+  font-size:70px; 
+  margin-top: -8%;
+}
+
+div .para{
+  font-size: 25px;
+}
+
+
+@media(max-width: 768px){
+  div .contact-container{
+   box-shadow: rgb(135 32 158) 0px 0px 5px;
+    text-shadow: rgb(135 32 158) 0px 0px 2px;
+    width: auto;
+    margin: auto;
+    margin-top: 8%;
+    padding-top: 1%;
+    border-radius: 10px;
+  }
+
+  div .contact-h3 {
+    font-size: 1.4rem;
+    color: var(--yellow);
+    padding: 1rem 0;
+    font-weight: normal;
+  }
+  div .email-div{
+   
+    padding: 2rem 1rem 2rem 6rem;
+    text-align: center;
+    display: contents;
+  }
+
+  div .contact-h1 {
+    font-size: 1.2rem;
+    color: var(--yellow);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+div .contact-h2 {
+  font-size: 1.3rem;
+  color: var(--yellow);
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.contact-cardbody{
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    margin-top: 20%;
+}
+
+div .icon-container{
+  box-shadow: 0 0 5px #87209e; 
+  text-shadow: 0 0 2px #87209e; 
+  width: 90%; 
+  margin-top: 2%; 
+  margin-bottom: 5%; 
+  padding-top: 1%; 
+  border-radius: 10px;
+}
+
+div .finds{
+  font-size:45px; 
+  margin-top: -8%;
+}
+
+div .para{
+  font-size: 19px;
+}
+
+  
+}
+

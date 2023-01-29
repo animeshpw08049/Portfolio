@@ -8,27 +8,30 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Contact() {
   return (
+    
     <Card className="quote-card-view">
-      <Card.Body>
-      <Container  style={{boxShadow:" 0 0 5px #87209e",textShadow:" 0 0 2px #87209e", width:"50%", marginTop:"8%", paddingTop:"1%", borderRadius:"10px"}}>
+
+      
+      <Card.Body className="contact-cardbody">
+      <Container className="contact-container" >
         <blockquote className="blockquote mb-0">
 
-        <div style={{marginTop:"7%",textAlign:"center"}}>
+        <div className="contact-div" style={{marginTop:"7%",textAlign:"center"}}>
 
           <h1 style={{fontSize:"50px", fontWeight:"bold", letterSpacing:"1px"}}>Contact Info</h1>
 
-           <div style={{ flex:"1 1 48rem",padding:"2rem 1rem",paddingLeft: "6rem",textAlign:"center"}}>
-               <h3 style={{fontSize: "2rem",color:"var(--yellow)",padding:"1rem 0",fontWeight: "normal"}}>
-               <CgMail style={{ marginBottom: "2px", marginRight:"1%"}} /> animeshkumar2812@gmail.com
+           <div className="email-div">
+               <h3 className="contact-h1" >
+               <CgMail className="mail-icon"/> animeshkumar2812@gmail.com
                 </h3>
 
-               <h3 style={{fontSize: "2rem",color:"var(--yellow)",padding:"1rem 0",fontWeight: "normal"}}>
+               <h3 className="contact-h3">
                <CgPhone style={{ marginBottom: "2px", marginLeft:"-38%",  marginRight:"1%"}} /> +91 9650731805 
                 </h3>
-               <h3 style={{fontSize: "2rem",color:"var(--yellow)",padding:"1rem 0",fontWeight: "normal"}}> 
+               <h3 className="contact-h3"> 
                <CgPhone style={{ marginBottom: "2px", marginLeft:"-38%",  marginRight:"1%"}} /> +91 7667694853 
                 </h3>
-               <h3 style={{fontSize: "2rem",color:"var(--yellow)",padding:"1rem 0",fontWeight: "normal"}}> 
+               <h3 className="contact-h2"> 
                  <AiOutlineHome style={{ marginBottom: "2px", marginLeft:"-22%",  marginRight:"1%"}} /> Munger, Bihar - 811211. 
                 </h3>
            </div>
@@ -36,15 +39,17 @@ function Contact() {
         </blockquote>
         </Container>
       </Card.Body>
+     
 
-      <Container  style={{boxShadow:" 0 0 5px #87209e",textShadow:" 0 0 2px #87209e", width:"50%", marginTop:"2%", marginBottom:"5%", paddingTop:"1%", borderRadius:"10px"}}>
+
+      <Container className="icon-container">
       <Container fluid className="home-about-section" id="about">
-      <Container>
+      <Container className="main-icon-container">
        
         <Row>
           <Col md={12} className="home-about-social">
-            <h1 style={{fontSize:"70px", marginTop:"-8%"}}>FIND ME ON</h1>
-            <p style={{fontSize:"25px"}}>
+            <h1 className="finds">FIND ME ON</h1>
+            <p className="para">
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
@@ -86,6 +91,8 @@ function Contact() {
     </Container>
     </Container>
     </Card>  
+
+   
   );
 }
 
