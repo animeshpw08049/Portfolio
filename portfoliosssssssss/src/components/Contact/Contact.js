@@ -26,7 +26,7 @@ function Contact() {
                 </h3>
 
                <h3 className="contact-h3">
-               <CgPhone style={{ marginBottom: "2px", marginLeft:"-38%",  marginRight:"1%"}} /> +91 9650731805 
+               <CgPhone style={{ marginBottom: "2px", marginLeft:"-39%",  marginRight:"1%"}} /> +91 9650731805 
                 </h3>
                <h3 className="contact-h3"> 
                <CgPhone style={{ marginBottom: "2px", marginLeft:"-38%",  marginRight:"1%"}} /> +91 7667694853 
